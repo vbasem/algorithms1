@@ -1,4 +1,4 @@
-package bsf;
+package bfs;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,10 +8,10 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class BsfTree {
+public class BfsTree {
     List<List<Edge>> graph;
 
-    public BsfTree(int size) {
+    public BfsTree(int size) {
         this.graph = new ArrayList<>();
         for (int i = 0; i < size; i++) {
             this.graph.add(new ArrayList<>());
@@ -21,7 +21,7 @@ public class BsfTree {
 
     public static void main(String[] args) {
 
-        BsfTree graph = new BsfTree(13);
+        BfsTree graph = new BfsTree(13);
         graph.add(0, 1);
         graph.add(0, 2);
         graph.add(1, 0);
