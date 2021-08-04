@@ -161,12 +161,14 @@ public class TopoDsf {
         String result = "";
 
         if (!visited.contains(node)) {
-            visited.add(node);
+            
             for (Edge c : graph.getOrDefault(node, new ArrayList<>())) {
                 if (!visited.contains(c.u)) {
                     result = topo(c.u, visited) + result;
                 }
             }
+
+            visited.add(node);
         }
 
   
