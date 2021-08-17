@@ -78,6 +78,7 @@ public class KnightsTour {
             return true;
         }
 
+
         for (int i = -2; i <= 2; i++) {
             if (i == 0) {
                 continue;
@@ -101,11 +102,15 @@ public class KnightsTour {
     }
 
     private boolean isAccessible(int row, int col) {
-        if (row < 0 || row >= board.length || col < 0 || col >= board.length) {
+        if (row < 0 || row >= board.length) {
+            return false;
+        }
+        if (col < 0 || col >= board.length) {
             return false;
         }
         return board[row][col] == null;
     }
+
 
     @FunctionalInterface
     interface Checker {
