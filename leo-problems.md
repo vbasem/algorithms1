@@ -1,0 +1,279 @@
+- [x] Two Sum
+- [x] Add Two Numbers
+- lay function structure first before diving into details
+- [x] Longest Substring Without Repeating Characters
+- sliding window, but use examples to run through the code
+- [x] Reverse Integer
+- edge cases can hide in max/min and limits of languages
+- remember math pow for 10s
+- negative numbers are a must check
+- can be simplified to mod -> add -> multiply by 10 to shift left
+- [x] Container With Most Water
+- much simpler solution with 2 pointers instead of brute force method. left and right pointer will always stick to the highest element and max will remember the difference until that point 
+  - [ ] revisit
+- [ ] Integer to Roman
+- [ ] Roman to Integer
+- [ ] Longest Common Prefix
+- [ ] 3Sum
+- [ ] 3Sum closest
+- [ ] Letter Combinations of a Phone Number
+- [ ] 4Sum
+- [ ] Valid Parentheses
+- [ ] Generate Parentheses
+- [ ] Merge k Sorted Lists
+- [ ] Swap Nodes in Pairs
+- [ ] Remove Duplicates from Sorted Array
+- [ ] Remove Element
+- [ ] Next Permutation
+- [ ] Longest Valid Parenthesis
+- [ ] Search in Rotated Sorted Array
+- [ ] Search for range
+- [ ] Search Insert Position
+- [ ] Count and Say
+- [ ] Combination Sum
+- [ ] Combination Sum II
+- [ ] First Missing Number
+- [ ] Trapping Rain Water
+- [ ] Multiply Strings
+- [ ] Jump Game II
+- [ ] Permutations
+- [ ] Permutations II
+- [ ] Rotate Image
+- [ ] Group Anagrams
+- [ ] Power(x,n)
+- [ ] N-Queens
+- [ ] N-Queens II
+- [ ] Maximum Subarray
+- [ ] Spiral Matrix
+- [ ] Jump Game
+- [ ] Merge Intervals
+- [ ] Insert Interval
+- [ ] Length of Last Word
+- [ ] Spiral Matrix II
+- [ ] Rotate List
+- [ ] Unique Paths
+- [ ] Unique Paths II
+- [ ] Minimum Path Sum
+- [ ] Add Binary
+- [ ] Text Justification
+- [ ] Sqrt(x)
+- [ ] Climbing Stairs
+- [ ] Simplify Path
+- [ ] Edit Distance
+- [ ] Set Matrix Zeroes
+- [ ] Search a 2D Matrix
+- [ ] Sort Colors
+- [ ] Minimum Window Substring
+- [ ] Combinations
+- [ ] Subsets
+- [ ] Word Search
+- [ ] Remove Duplicates from Sorted Array II
+- [ ] Search in Rotated Sorted Array II
+- [ ] Remove Duplicates from Sorted List II
+- [ ] Remove Duplicates from Sorted List
+- [ ] Largest Rectangle in Histogram
+- [ ] Maximal Rectangle
+- [ ] Partition List
+- [ ] Merge sorted array
+- [ ] Gray code
+- [ ] Subsets II
+- [ ] Decode Ways
+- [ ] Reverse Linked List II
+- [ ] Restore IP Addresses
+- [ ] Binary Tree Inorder Traversal
+- [ ] Unique Binary Search Trees
+- [ ] Validate Binary Search Tree
+- [ ] Recover Binary Search Tree
+- [ ] Same Tree
+- [ ] Symmetric Tree
+- [ ] Binary Tree Level Order Traversal
+- [ ] Binary Tree Zigzag Level Order Traversal
+- [ ] Maximum Depth of Binary Tree
+- [ ] Construct Binary Tree from Preorder and Inorder Traversal
+- [ ] Construct Binary Tree from Inorder and Postorder Traversal
+- [ ] Binary Tree Level Order Traversal II
+- [ ] Convert Sorted Array to Binary Search Tree
+- [ ] Convert Sorted List to Binary Search Tree
+- [ ] Balanced Binary Tree
+- [ ] Minimum Depth of Binary Tree
+- [ ] Path Sum
+- [ ] Path Sum II
+- [ ] Flatten Binary Tree to Linked List
+- [ ] Populating Next Right Pointers in Each Node
+- [ ] Populating Next Right Pointers in Each Node II
+- [ ] Best Time to Buy and Sell Stock
+- [ ] Best Time to Buy and Sell Stock II
+- [ ] Best Time to Buy and Sell Stock III
+- [ ] Valid Palindrome
+- [ ] Word Ladder
+- [ ] Longest Consecutive Sequence
+- [ ] Sum Root to Leaf Numbers
+- [ ] Surrounded Regions
+- [ ] Palindrome Partitioning
+- [ ] Clone Graph
+- [ ] Gas Station
+- [ ] Candy
+- [ ] Copy List with Random Pointer
+- [ ] Single Number
+- [ ] Single Number II
+- [ ] Word Break
+- [ ] Word Break II
+- [ ] Understanding KMP algorithms
+- [ ] Linked List Cycle
+- [ ] Linked List Cycle II
+- [ ] Reorder List
+- [ ] Binary Tree Preorder Traversal
+- [ ] Binary Tree Postorder Traversal
+- [ ] LRU Cache
+- [ ] Evaluate Reverse Polish Notation
+- [ ] Reverse Words in a String
+- [ ] Maximum Product Subarray
+- [ ] Find Minimum in Rotated Sorted Array
+- [ ] Find Minimum in Rotated Sorted Array II
+- [ ] Min Stack
+- [ ] Binary Tree Upside Down
+- [ ] Read N Characters Given Read4
+- [ ] Read N Characters Given ReadII Call multiple times
+- [ ] Longest Substring with At Most Two Distinct Characters
+- [ ] Intersection of Two Linked Lists
+- [ ] One Edit Distance
+- [ ] Compare Version Numbers
+- [ ] Two Sum II - Input array is sorted
+- [ ] Excel Sheet Column Title
+- [ ] Majority Number
+- [ ] Two Sum III - Data structure design
+- [ ] Excel Sheet Column Number
+- [ ] Dungeon Game
+- [ ] Factorial Trailing Zeros
+- [ ] Binary Search Tree Iterator
+- [ ] Largest Number
+- [ ] Repeated DNA Sequences
+- [ ] Best Time to Buy and Sell Stock IV
+- [ ] Rotate Array
+- [ ] Reverse Bits
+- [ ] House Robber
+- [ ] Binary Tree Right Side View
+- [ ] Number of Islands
+- [ ] Bitwise AND of Numbers Range
+- [ ] Happy Number
+- [ ] Remove Linked List Elements
+- [ ] Count Primes
+- [ ] Isomorphic Strings
+- [ ] Reverse Linked List
+- [ ] Course Schedule
+- [ ] Implement Trie (Prefix Tree)
+- [ ] Minimum Size Subarray Sum
+- [ ] Course Schedule II
+- [ ] Word Search II
+- [ ] Shortest Palindrome
+- [ ] Kth Largest Element in an Array
+- [ ] Combination Sum III
+- [ ] Contains Duplicate
+- [ ] Contains Duplicate II
+- [ ] Contains Duplicates III
+- [ ] Maximal Square
+- [ ] Count Complete Tree Nodes
+- [ ] Rectangle Area
+- [ ] Implement Stack using Queues
+- [ ] Invert Binary Tree
+- [ ] Summary Ranges
+- [ ] Majority Number II
+- [ ] Kth Smallest Element in a BST
+- [ ] Palindrome Linked List
+- [ ] Lowest Common Ancestor of a Binary Search Tree
+- [ ] Lowest Common Ancestor of a Binary Tree
+- [ ] Delete Node in a Linked List
+- [ ] Product of Array Except Self
+- [ ] Search a 2D Matrix II
+- [ ] Different Ways to Add Parentheses
+- [ ] Valid Anagram
+- [ ] Shortest Word Distance
+- [ ] Shortest Word Distance II
+- [ ] Shortest Word Distance III
+- [ ] Strobogrammatic Number
+- [ ] Strobogrammatic Number II
+- [ ] Group Shifted Strings
+- [ ] Count Univalue Subtrees
+- [ ] Flatten 2D Vector
+- [ ] Meetings Rooms
+- [ ] Meetings Rooms II
+- [ ] Verify Preorder Sequence in Binary Search Tree
+- [ ] Binary Tree Paths
+- [ ] Add digits
+- [ ] 3Sum Smaller
+- [ ] Single Number III
+- [ ] Graph Valid Tree
+- [ ] Ugly Number
+- [ ] Palindrome Permutation
+- [ ] Missing Number
+- [ ] Alien Dictionary
+- [ ] Closest Binary Search Tree Value
+- [ ] Encode and Decode Strings
+- [ ] Closest Binary Search Tree Value II
+- [ ] H-Index
+- [ ] H-Index II
+- [ ] Find the Celebrity
+- [ ] First Bad Version
+- [ ] Perfect squares
+- [ ] Wiggle Sort
+- [ ] Zigzag Iterator
+- [ ] Expression Add Operators
+- [ ] Move Zeroes
+- [ ] Peeking Iterator
+- [ ] Inroder Successor in BST
+- [ ] Walls and Gates
+- [ ] Find the Duplicate Number
+- [ ] Walls and Gates
+- [ ] Unique Word Abbreviation
+- [ ] Word Patterns
+- [ ] Flip Game
+- [ ] Flip Game II
+- [ ] something is not riht
+- [ ] Bulls and Cows
+- [ ] Longest Increasing Subsequence
+- [ ] Remove Invalid Parenthesis
+- [ ] number of islands ii
+- [ ] Sparse Matrix Multiplication
+- [ ] Super Ugly number
+- [ ] Binary Tree Vertical Order Traversal
+- [ ] Count of Smaller Numbers After Self
+- [ ] Shortest Distance from All Buildings
+- [ ] Bulb Switcher
+- [ ] Coin Change
+- [ ] Wiggle Sort II
+- [ ] Maximum Size Subarray Sum Equals k
+- [ ] Odd Even Linked List
+- [ ] Longest Increasing Path in a Matrix
+- [ ] Patching Array
+- [ ] Largest BST Subtree
+- [ ] Increasing Triplet Subsequence
+- [ ] House Robber III
+- [ ] Nested List Weight Sum
+- [ ] Flatten Nested List Iterator
+- [ ] Power of Four
+- [ ] Integer Break
+- [ ] Reverse String
+- [ ] Reverse Vowels of a String
+- [ ] Moving Average from Data Stream
+- [ ] Top K Frequent Elements
+- [ ] Intersection of Two Arrays
+- [ ] Intersection of Two Arrays II
+- [ ] Data Stream as Disjoint Intervals
+- [ ] Line Reflection
+- [ ] Count Numbers with Unique Digits
+- [ ] Rearrange String k Distance Apart
+- [ ] Logger Rate Limiter
+- [ ] Sort Transformed Array
+- [ ] Design Hit Counter
+- [ ] Nested List Weight Sum II
+- [ ] Find Leaves of Binary Tree
+- [ ] Valid Perfect Square
+- [ ] Plus One Linked List
+- [ ] Range Addition
+- [ ] Sum of Tow Integers
+- [ ] Super Pow
+- [ ] Find K Pairs with Smallest Sums
+- [ ] Guess Number Higher or Lower
+- [ ] Kth Smallest Element in a Sorted Matrix
+- [ ] Insert Delete GetRandom O(1)
+- [ ] Random Pick Index

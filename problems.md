@@ -1,24 +1,64 @@
 - [x] Guess the Word
+  - this one was tricky, purely statistical in nature. Guess, word, and guess again with words with similar matching. To reduce the pool of words, we can use the pool with the highest similarity and guess with that, and repeat 
   - [ ] revisit
-- this one was tricky, purely statistical in nature. Guess, word, and guess again with words with similar matching. To reduce the pool of words, we can use the pool with the highest similarity and guess with that, and repeat 
-- [ ] Maximum Points You Can Obtain from Cards
-- can be brute forced recursively but not ideal
-- Another sliding window problem. Notice how elements from left and right slide together so we can always calculate the max for each sliding windows by using DP to calculate sums for left and right upto index I from left and remaining items  from the right
-- smart idea is to sum all the elements and the use a sliding window and compare the results instead of using DP. For this a sum alone is enough
-  - [ ] revisit 
-- [ ] Logger Rate Limiter
-- check return values carefully.
-- start with a class design, which simplifies all the steps that follow
-- [ ] Minimum Window Subsequence
-- [ ] String Transforms Into Another String
-- [ ] Max Value of Equation
-- [ ] The Most Similar Path in a Graph
-- [ ] Range Module
-- [ ] Encode String with Shortest Length
-- [ ] Maximum Number of Visible Points
-- [ ] Optimal Account Balancing
-- [ ] Max Area of Island 
-- [ ] Expressive Words
+- [x] Maximum Points You Can Obtain from Cards
+  - [ ] revisit
+  - can be brute forced recursively but not ideal
+  - Another sliding window problem. Notice how elements from left and right slide together, so we can always calculate the max for each sliding windows by using DP to calculate sums for left and right upto index I from left and remaining items  from the right
+  - smart idea is to sum all the elements and the use a sliding window and compare the results instead of using DP. For this a sum alone is enough
+- [x] Logger Rate Limiter
+  - check return values carefully.
+  - start with a class design, which simplifies all the steps that follow
+- [x] Minimum Window Subsequence
+  - [ ] revisit
+  - smart idea with two points , 1 at data, 2nd at target, once we find all items based on 2nd point, we go back with the first until 2nd counter resets, eliminating all unnecessary characters in between
+  - can be done with dynamic programming, but finding the min requires extra logic in the table. For this purpose, we can add a second counter and use that to see which of the final answers is the smallest one
+  - repeated letters in DP need special consideration 
+  - need a simpler DP logic in revisit
+- [x] String Transforms Into Another String
+  - watch out for while loop increments
+- [x] Max Value of Equation
+  - [ ] revisit
+  - more often the problem, especially mathematical ones, can be simplified
+  - priority queues are a fantastic way of keeping track of mix/max while iterating over items.
+  - Items in PQ can be tuples and comparator takes first/second for comparison
+- [x] The Most Similar Path in a Graph
+  - [ ] revisit
+  - understanding the problem takes very long. 
+  - DSF problems are nie to solve by going through example line by line
+  - DP/MEMO to remember the best outcome for flying from a city at a given index is the key to this
+  - dont be shy of using multiple matrices to store path/best values separately
+  - need to solve more similar Flight Graph problems
+- [x] Range Module
+  - treemap has fantastic support for this sort of data  by using lowerKey and floorKey we are able to quickly locate the range in the tree that covers given input
+  - treemap can produce a submap between any 2 keys (range) and clear it as part of delete/add operations
+  - this sort of problems can get lengthy if not approached systematically, so right your thoughts down and proceed based on those steps
+- [x] Encode String with Shortest Length
+  - [ ] revisit
+  - a DP table is the way to go, which includes all lengths starting from a given char
+  - at each letter we see if we any combinations between letter and letter + length is shorter than the substring
+  - the difficult part is the encoding and replacing the partial match with dp value for that letter and sub length of the encoding
+  - a DIFFICULT problem to solve in limited time and needs 300% focus
+- [x] Maximum Number of Visible Points
+  - long live geometry!
+    - DOT product  x1*x2 + y1* y2
+    - Determinant x1*y2 - y1*x2
+    - atan (y,x) -> angle from 0,0
+    - atan2 (det, dot) -> angle between 2 vectors
+    - Math.toDegrees -> convert rad -> deg
+    - angle between 0-180 and -180-0
+    - adding a ful circle to angles to normalize them
+  - specially when counting max-min , sorting and then using a slide window seems to be a common pattern
+- [x] Optimal Account Balancing
+  - [ ] revisit
+  - graph optimization problems with DSF and backtracking should always be an early option 
+  - the trick was understanding that balancing out debts, didnt care about who is involved, what matterd is that at the end the balance was zero
+  - by putting all debts/owes in a list and trying to cancel them out with minimum nr. of additions we seek the correct answer
+- [x] Max Area of Island
+  - can be more elegant 
+  - DSF is one way to go
+- [x] Expressive Words
+  - pay more attention to edge cases, specially when dealing with 2 or more arrays with different sizes, what happens to the rest of the elements?
 - [ ] Random Pick with Weight
 - [ ] Employee Importance
 - [ ] Validate Stack Sequences
